@@ -1,1 +1,3 @@
-# Multimodal-Search
+# My Project
+
+Simple Python project structure.
