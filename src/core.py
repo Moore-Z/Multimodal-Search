@@ -1,6 +1,3 @@
-def run_pipeline():
-    print('Running project pipeline...')
-
 import pymupdf
 import os
 from sentence_transformers import SentenceTransformer
@@ -9,7 +6,7 @@ import numpy as np
 
 
 def get_abstract(path):
-    doc = pymupdf.open("/Users/henry/Documents/Project/PracticeProject/Multimodal-Search/data/2410.02536v2.pdf")
+    doc = pymupdf.open("/data/PDF/2410.02536v2.pdf")
     text = ''
     for page in doc:
         text += page.get_text()
